@@ -1,0 +1,154 @@
+/* Add or modify the styles in your CSS file */
+
+#carouselExampleCaptions {
+  height: 70vh; /* Set the height to 70% of the viewport height */
+  max-width: 75%; /* Set the maximum width to 75% of the viewport width */
+  margin: 0 auto; /* Center the carousel horizontally */
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.0); /* Set background color with reduced opacity */
+}
+
+.carousel-item {
+  height: 100%; /* Make sure carousel items take the full height of the container */
+}
+
+.carousel-inner {
+  height: 100%; /* Ensure the carousel inner div takes full height */
+}
+
+.carousel-item img {
+  object-fit: cover; /* Cover the entire carousel item with the image */
+}
+
+.search-icon {
+  margin-left: -25px;
+  font-weight: bold;
+  color: gray;
+}
+.input-box{
+  background-color: rgb(210, 237, 237);
+}
+button {
+  background-color: #006AEC;
+  font-size: 17px;
+  color: white;
+  outline: none;
+  border: none;
+  padding: 15px;
+  border-radius: 25px;
+
+}
+.texteffect{
+  text-shadow: 0 0 2px #00a2ff, 0 0 10px #290172, 0 0 15px #dd00ff;
+}
+.footerunderline{
+  text-decoration: none;
+}
+.caresoul-heading{
+  font-size: 3rem;
+  font-weight: bolder;
+  color: black;
+}
+.caresoul-para{
+  font-size: 20px;
+  color: black;
+  font-weight: 500;
+}
+.caresoul-bg{
+  background-color: beige;
+  border-radius: 15px;
+  opacity: 0.9;
+}
+
+
+
+.active{
+  color: #0c4b78;
+  transform: scale(1.1);
+}
+
+.formContainer {
+  width: 350px;
+  margin: auto;
+  padding: 20px;
+  background: linear-gradient(to right, #0c4b78, #3d1444); /* Gradient background */
+  border-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#21254a" d="M0,224L120,202.7C240,181,480,139,720,144C960,149,1200,203,1320,229.3L1440,256L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path></svg>') 1; /* SVG wave border */
+  border-image-slice: 1;
+  border-image-repeat: round;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.formContainer h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+}
+
+.formContainer h2 {
+  font-size: 18px;
+  font-weight: medium;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.inputField {
+  padding: 12px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid rgb(204, 202, 202);
+  background-color:#21254a;
+  font-size: 16px;
+  color: #fff;
+}
+
+.errorMessage {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.signupButton {
+  background: linear-gradient(to right, #4e54c8, #6e3ed2); /* Gradient from violet to blue */
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s; /* Added box-shadow transition */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift effect */
+}
+
+/* Hover effect: Darken the button on hover */
+.signupButton:hover {
+  filter: brightness(0.9);
+}
+
+.footer {
+  margin-top: auto;
+  text-align: center;
+  padding: 16px;
+  background-color: #333;
+  color: #fff;
+}
+.signupunderline{
+  text-decoration: underline;
+}
+.privecy-alrt-para{
+color: rgb(205, 210, 214);
+}
+
+.linkedsignuplogin{
+  color: rgb(205, 210, 214);
+
+}
